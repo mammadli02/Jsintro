@@ -5,7 +5,7 @@ function divided(a){
     if (b==0){
         console.log("7-ye bolunur");
     }else{
-        if(b<=(7/2)){
+        if(b<=4){
 console.log(a-b);
         }
         else{
@@ -13,7 +13,7 @@ console.log(a-b);
         }
     }
 }
-divided(16)
+divided(19)
 
 // // //arrow function
 let divided1 =(a)=>{
@@ -21,7 +21,7 @@ let divided1 =(a)=>{
     if (b==0){
         console.log("7-ye bolunur");
     }else{
-        if(b<=(7/2)){
+        if(b<=4){
 console.log(a-b);
         }
         else{
@@ -32,13 +32,13 @@ console.log(a-b);
 divided1(19)
 
 
-// //anonim function
+// // //anonim function
 let divided2 = function(a){
     let b=a%7;
     if (b==0){
         console.log("7-ye bolunur");
     }else{
-        if(b<=(7/2)){
+        if(b<=4){
 console.log(a-b);
         }
         else{
@@ -49,8 +49,8 @@ console.log(a-b);
 divided2(19)
 
 
-// //TASK2
-// //regular function
+// // //TASK2
+// // //regular function
 function count(a){
     if(a<50){
         for(let i=1; i<a; i++){
@@ -77,7 +77,7 @@ function count(a){
     }
 }
 count(80)
-// //arrow function
+// // //arrow function
 let count1=(a)=>{
     if(a<50){
         for(let i=1; i<a; i++){
@@ -105,7 +105,7 @@ let count1=(a)=>{
 }
 count1(80)
 
-// //anonim function
+// // //anonim function
 let count2=function (a){
     if(a<50){
         for(let i=1; i<a; i++){
