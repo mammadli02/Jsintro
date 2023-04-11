@@ -4,6 +4,8 @@ function divided(a){
     let b=a%7;
     if (b==0){
         console.log("7-ye bolunur");
+    }else if(a<7){
+        console.log(7);
     }else{
         if(b<3){
 console.log(a-b);
@@ -20,6 +22,8 @@ let divided1 =(a)=>{
     let b=a%7;
     if (b==0){
         console.log("7-ye bolunur");
+    }else if(a<7){
+        console.log(7);
     }else{
         if(b<3){
 console.log(a-b);
@@ -37,6 +41,8 @@ let divided2 = function(a){
     let b=a%7;
     if (b==0){
         console.log("7-ye bolunur");
+    }else if(a<7){
+        console.log(7);
     }else{
         if(b<3){
 console.log(a-b);
